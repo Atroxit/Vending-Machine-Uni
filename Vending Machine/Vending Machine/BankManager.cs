@@ -16,7 +16,7 @@ namespace Bank
             return DM.checkAccount(accountID);
         }
         
-        public bool processPayment(int accountID, int amountToDeduct)
+        public bool processPayment(int accountID, float amountToDeduct)
         {
             return DM.setBalance(accountID, amountToDeduct);
         }

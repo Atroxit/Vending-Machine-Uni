@@ -7,18 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bank;
 
 namespace Vending_Machine
 {
     public partial class VendingMachine : Form
     {
         private float balance = 0.00f;
-
+        private int cardID = -1;
+        
         //Key = ID, Value = Price
         Dictionary<string, float> drinks = new Dictionary<string, float>();
+        BankManager BM = new BankManager();
 
         public VendingMachine()
         {
+            
             InitializeComponent();
 
             //First Row
@@ -40,7 +44,8 @@ namespace Vending_Machine
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             var x = CardIDDropdown.SelectedIndex;
-            Console.WriteLine(x);
+            Console.WriteLine("card id selected: " + x);
+            cardID = x;
         }
         
 
@@ -60,23 +65,41 @@ namespace Vending_Machine
         private void BuyButton_Click(object sender, EventArgs e)
         {
             float price = getPrice(DrinkSelectionInput.Text);
-            Console.WriteLine(price);
+            Console.WriteLine("Item Price: " + price);
             if (price == 0)
             {
                 MessageBox.Show("You have entered an Invalid ID", "Invalid ID");
                 return;
             }
 
-            if (this.balance >= price)
+            if (cardID >= 0)
             {
-                this.balance -= price;
-                ChangeLabel.Text = "£" + Math.Round(this.balance, 2);
-                resetMachine();
+                bool payment = this.BM.processPayment(cardID, price);
+                if (payment)
+                {
+                    resetMachine();
+                    MessageBox.Show("Dispensed Item!", "Dispensed Item!");
+                }
+                else
+                {
+                    MessageBox.Show("You can't afford this item. Please select another item.", "Insufficient Funds");
+                }
             }
             else
             {
-                MessageBox.Show("You can't afford this item. Please select another item.", "Insufficient Funds");
+                if (this.balance >= price)
+                {
+                    this.balance -= price;
+                    ChangeLabel.Text = "£" + Math.Round(this.balance, 2);
+                    MessageBox.Show("Dispensed Item!", "Dispensed Item!");
+                    resetMachine();
+                }
+                else
+                {
+                    MessageBox.Show("You can't afford this item. Please select another item.", "Insufficient Funds");
+                }
             }
+            
 
         }
 
@@ -85,6 +108,7 @@ namespace Vending_Machine
             this.balance = 0;
             CashInput.Text = "";
             DrinkSelectionInput.Text = "";
+            CardIDDropdown.SelectedIndex = -1;
         }
 
         private float getPrice(String ID)

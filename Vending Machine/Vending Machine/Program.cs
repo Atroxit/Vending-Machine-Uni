@@ -13,8 +13,6 @@ namespace Vending_Machine
         [STAThread]
         static void Main()
         {
-            BankManager BM = new BankManager();
-            
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

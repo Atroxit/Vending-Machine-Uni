@@ -38,7 +38,7 @@ namespace Bank
                 if (accountID == int.Parse(CSVData[i,0]))
                 {
                     CSVData[i,1] = (float.Parse(CSVData[i,1]) - amountToDeduct).ToString();
-                    Console.WriteLine(CSVData[i,1]);
+                    Console.WriteLine("Reminaing Balance: " + CSVData[i,1]);
                 }
             }
 
