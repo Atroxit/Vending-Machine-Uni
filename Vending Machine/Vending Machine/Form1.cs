@@ -55,7 +55,6 @@ namespace Vending_Machine
             {
                 Console.WriteLine("Error Parsing Cash Input");
             }
-
         }
 
         private void BuyButton_Click(object sender, EventArgs e)
@@ -71,7 +70,7 @@ namespace Vending_Machine
             if (this.balance >= price)
             {
                 this.balance -= price;
-                ChangeLabel.Text = "£" + this.balance.ToString();
+                ChangeLabel.Text = "£" + Math.Round(this.balance, 2);
                 resetMachine();
             }
             else
