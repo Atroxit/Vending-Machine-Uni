@@ -1,1 +1,55 @@
+<<<<<<< Updated upstream
 ﻿"version":"1.0.0","restore":{"projectUniqueName":"C:\\Users\\james\\Documents\\Coding Stuff\\Vending Machine\\Vending Machine Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj","projectName":"Vending Machine","projectPath":"C:\\Users\\james\\Documents\\Coding Stuff\\Vending Machine\\Vending Machine Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj","outputPath":"C:\\Users\\james\\Documents\\Coding Stuff\\Vending Machine\\Vending Machine Uni\\Vending Machine\\Vending Machine\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["netcoreapp3.1"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"netcoreapp3.1":{"targetAlias":"netcoreapp3.1","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp3.1":{"targetAlias":"netcoreapp3.1","imports":["net461","net462","net47","net471","net472","net48"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"},"Microsoft.WindowsDesktop.App.WindowsForms":{"privateAssets":"none"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"}}
+=======
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "K:\\Zephyrus Drive\\Uni Work Year 2\\Semester 2\\Software Engineering\\Coursework 1\\Demo\\Vending-Machine-Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj",
+    "projectName": "Vending Machine",
+    "projectPath": "K:\\Zephyrus Drive\\Uni Work Year 2\\Semester 2\\Software Engineering\\Coursework 1\\Demo\\Vending-Machine-Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj",
+    "outputPath": "K:\\Zephyrus Drive\\Uni Work Year 2\\Semester 2\\Software Engineering\\Coursework 1\\Demo\\Vending-Machine-Uni\\Vending Machine\\Vending Machine\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://www.myget.org/f/oxide/api/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        },
+        "Microsoft.WindowsDesktop.App.WindowsForms": {
+          "privateAssets": "none"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
+>>>>>>> Stashed changes

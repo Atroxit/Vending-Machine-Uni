@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="142bfa22-d3df-4124-b80b-75f3cca8a5f9" name="Default Changelist" comment="" />
+    <list default="true" id="142bfa22-d3df-4124-b80b-75f3cca8a5f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vending-Machine-Uni.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vending-Machine-Uni.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vending Machine/Vending Machine/BankManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vending Machine/Vending Machine/BankManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vending Machine/Vending Machine/DatabaseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vending Machine/Vending Machine/DatabaseManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +35,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Vending Machine/Vending Machine/DatabaseManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vending Machine/Vending Machine/BankManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/Vending Machine/Vending Machine/DatabaseManager.cs" />
+        <option value="$PROJECT_DIR$/Vending Machine/Vending Machine/BankManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1qPbiW1YDOVmmigoIPMo1O1F0EQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616984301787</updated>
-      <workItem from="1616984304909" duration="544000" />
+      <workItem from="1616984304909" duration="2378000" />
     </task>
     <servers />
   </component>
@@ -44,7 +78,28 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1813" y="100" width="1534" height="1247" key="VCS.FileHistoryDialog" timestamp="1616986080558">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1813" y="100" width="1534" height="1247" key="VCS.FileHistoryDialog/0.0.3440.1440/0.-1440.3440.1410/-1440.-1737.1440.3440@0.0.3440.1440" timestamp="1616986080558" />
+    <state x="1383" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1616986308591">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1383" y="325" width="672" height="678" key="search.everywhere.popup/0.0.3440.1440/0.-1440.3440.1410/-1440.-1737.1440.3440@0.0.3440.1440" timestamp="1616986308591" />
   </component>
 </project>

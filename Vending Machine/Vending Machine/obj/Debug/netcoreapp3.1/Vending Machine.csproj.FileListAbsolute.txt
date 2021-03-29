@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.exe
 C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.deps.json
 C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.runtimeconfig.json
@@ -13,3 +14,20 @@ C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vendin
 C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.pdb
 C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.genruntimeconfig.cache
 C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending_Machine.VendingMachine.resources
+=======
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.exe
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.deps.json
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.runtimeconfig.json
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.runtimeconfig.dev.json
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.dll
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.pdb
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.csprojAssemblyReference.cache
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.csproj.GenerateResource.cache
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.AssemblyInfoInputs.cache
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.AssemblyInfo.cs
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.csproj.CoreCompileInputs.cache
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.dll
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.pdb
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.genruntimeconfig.cache
+>>>>>>> Stashed changes
+K:\Zephyrus Drive\Uni Work Year 2\Semester 2\Software Engineering\Coursework 1\Demo\Vending-Machine-Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending_Machine.VendingMachine.resources
