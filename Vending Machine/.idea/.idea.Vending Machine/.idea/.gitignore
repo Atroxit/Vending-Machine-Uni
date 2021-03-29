@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.Vending Machine.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\.idea\.idea.Vending Machine\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
