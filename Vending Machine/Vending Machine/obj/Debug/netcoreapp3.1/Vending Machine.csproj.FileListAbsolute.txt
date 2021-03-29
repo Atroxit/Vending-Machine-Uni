@@ -1,0 +1,15 @@
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.exe
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.deps.json
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.runtimeconfig.json
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.runtimeconfig.dev.json
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.dll
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\bin\Debug\netcoreapp3.1\Vending Machine.pdb
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.csprojAssemblyReference.cache
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.csproj.GenerateResource.cache
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.AssemblyInfoInputs.cache
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.AssemblyInfo.cs
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.csproj.CoreCompileInputs.cache
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.dll
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.pdb
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending Machine.genruntimeconfig.cache
+C:\Users\james\Documents\Coding Stuff\Vending Machine\Vending Machine Uni\Vending Machine\Vending Machine\obj\Debug\netcoreapp3.1\Vending_Machine.VendingMachine.resources

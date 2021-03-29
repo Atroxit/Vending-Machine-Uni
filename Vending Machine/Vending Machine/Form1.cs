@@ -10,12 +10,36 @@ using System.Windows.Forms;
 
 namespace Vending_Machine
 {
-    public partial class Form1 : Form
+    public partial class VendingMachine : Form
     {
-        public Form1()
+        public float balance = 0.00f;
+        public VendingMachine()
         {
             InitializeComponent();
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var x = CardIDDropdown.SelectedIndex;
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CashInput_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                balance = float.Parse(CashInput.Text);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error Parsing Cash Input");
+            }
+            
+        }
     }
 }
