@@ -16,6 +16,7 @@ namespace Vending_Machine
     {
         private float balance = 0.00f;
         private int cardID = -1;
+        private bool cardValidity = false;
         
         //Key = ID, Value = Price / Quanity
         Dictionary<string, Vector2> drinks = new Dictionary<string, Vector2>();
@@ -47,6 +48,23 @@ namespace Vending_Machine
             var x = CardIDDropdown.SelectedIndex;
             Console.WriteLine("card id selected: " + x);
             cardID = x;
+            if (cardID != -1)
+            {
+                cardValidity = BM.verifiyCard(x);
+            }
+            else
+            {
+                return;
+            }
+            
+            if (cardValidity)
+            {
+                MessageBox.Show("The card you have entered is valid", "Valid Card ID");
+            }
+            else
+            {
+                MessageBox.Show("You have entered an Invalid Card ID", "Invalid Card ID");
+            }
         }
         
 
@@ -82,10 +100,16 @@ namespace Vending_Machine
             
             if (cardID >= 0)
             {
+                if (cardValidity == false)
+                {
+                    return;
+                }
+                //Apply Discount
+                price *= 0.9f;
                 bool payment = this.BM.processPayment(cardID, price);
                 if (payment)
                 {
-                    MessageBox.Show("Dispensed Item! \nRemaining Quantity: " + dispenseItem(DrinkSelectionInput.Text) , "Dispensed Item!");
+                    MessageBox.Show("Dispensed Item! \nRemaining Quantity: " + dispenseItem(DrinkSelectionInput.Text) + "\nFrom Card ID: " + (cardID + 1), "Dispensed Item!");
                     resetMachine();
                 }
                 else
