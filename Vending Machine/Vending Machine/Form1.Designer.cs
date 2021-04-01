@@ -94,9 +94,9 @@ namespace Vending_Machine
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(163, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 39);
+            this.label4.Size = new System.Drawing.Size(86, 52);
             this.label4.TabIndex = 10;
-            this.label4.Text = "Diet Pipsi\r\n£2.20\r\nA3";
+            this.label4.Text = "Diet Pipsi\r\n£2.20\r\nA3\r\nOUT OF STOCK";
             // 
             // CashInput
             // 

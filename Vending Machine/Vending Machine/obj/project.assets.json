@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\kate-\\.nuget\\packages\\": {}
+    "C:\\Users\\james\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Zephyrus Drive\\Uni Work Year 2\\Semester 2\\Software Engineering\\Coursework 1\\Demo\\Vending-Machine-Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj",
+      "projectUniqueName": "C:\\Users\\james\\Documents\\Coding Stuff\\Vending Machine\\Vending Machine Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj",
       "projectName": "Vending Machine",
-      "projectPath": "K:\\Zephyrus Drive\\Uni Work Year 2\\Semester 2\\Software Engineering\\Coursework 1\\Demo\\Vending-Machine-Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj",
-      "packagesPath": "C:\\Users\\kate-\\.nuget\\packages\\",
-      "outputPath": "K:\\Zephyrus Drive\\Uni Work Year 2\\Semester 2\\Software Engineering\\Coursework 1\\Demo\\Vending-Machine-Uni\\Vending Machine\\Vending Machine\\obj\\",
+      "projectPath": "C:\\Users\\james\\Documents\\Coding Stuff\\Vending Machine\\Vending Machine Uni\\Vending Machine\\Vending Machine\\Vending Machine.csproj",
+      "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\james\\Documents\\Coding Stuff\\Vending Machine\\Vending Machine Uni\\Vending Machine\\Vending Machine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kate-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/f/oxide/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -44,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -62,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,8 +17,8 @@ namespace Vending_Machine
         private float balance = 0.00f;
         private int cardID = -1;
         
-        //Key = ID, Value = Price
-        Dictionary<string, float> drinks = new Dictionary<string, float>();
+        //Key = ID, Value = Price / Quanity
+        Dictionary<string, Vector2> drinks = new Dictionary<string, Vector2>();
         BankManager BM = new BankManager();
 
         public VendingMachine()
@@ -26,19 +27,19 @@ namespace Vending_Machine
             InitializeComponent();
 
             //First Row
-            drinks.Add("A1", 2.00f); //Pipsi
-            drinks.Add("A2", 1.70f); //Cola
-            drinks.Add("A3", 2.20f); //Diet Pipsi
+            drinks.Add("A1", new Vector2(2.0f, 10)); //Pipsi
+            drinks.Add("A2", new Vector2(1.70f, 10)); //Cola
+            drinks.Add("A3", new Vector2(2.20f, 0)); //Diet Pipsi / Out of stock
 
             //Second Row
-            drinks.Add("B1", 1.50f); //Dr. Cola
-            drinks.Add("B2", 2.00f); //Diet Cola
-            drinks.Add("B3", 1.70f); //Diet Dr. Cola
+            drinks.Add("B1", new Vector2(1.50f, 10)); //Dr. Cola
+            drinks.Add("B2", new Vector2(2.00f, 10)); //Diet Cola
+            drinks.Add("B3", new Vector2(1.70f, 10)); //Diet Dr. Cola
 
             //Third Row
-            drinks.Add("C1", 3.40f); //Power Thirst
-            drinks.Add("C2", 3.00f); //Max Power
-            drinks.Add("C3", 3.40f); //Diet Power
+            drinks.Add("C1", new Vector2(3.40f, 10)); //Power Thirst
+            drinks.Add("C2", new Vector2(3.00f, 10)); //Max Power
+            drinks.Add("C3", new Vector2(3.40f, 10)); //Diet Power
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -71,14 +72,21 @@ namespace Vending_Machine
                 MessageBox.Show("You have entered an Invalid ID", "Invalid ID");
                 return;
             }
-
+            
+            float quantity = getQuantity(DrinkSelectionInput.Text);
+            if (quantity <= 0)
+            {
+                MessageBox.Show("This item is not in stock sorry. \nPlease select another item.", "Item Not In Stock");
+                return;
+            }
+            
             if (cardID >= 0)
             {
                 bool payment = this.BM.processPayment(cardID, price);
                 if (payment)
                 {
+                    MessageBox.Show("Dispensed Item! \nRemaining Quantity: " + dispenseItem(DrinkSelectionInput.Text) , "Dispensed Item!");
                     resetMachine();
-                    MessageBox.Show("Dispensed Item!", "Dispensed Item!");
                 }
                 else
                 {
@@ -91,7 +99,7 @@ namespace Vending_Machine
                 {
                     this.balance -= price;
                     ChangeLabel.Text = "£" + Math.Round(this.balance, 2);
-                    MessageBox.Show("Dispensed Item!", "Dispensed Item!");
+                    MessageBox.Show("Dispensed Item! \nRemaining Quantity: " + dispenseItem(DrinkSelectionInput.Text) , "Dispensed Item!");
                     resetMachine();
                 }
                 else
@@ -99,10 +107,8 @@ namespace Vending_Machine
                     MessageBox.Show("You can't afford this item. Please select another item.", "Insufficient Funds");
                 }
             }
-            
-
         }
-
+        
         private void resetMachine()
         {
             this.balance = 0;
@@ -113,10 +119,30 @@ namespace Vending_Machine
 
         private float getPrice(String ID)
         {
-            float value;
+            Vector2 value;
             drinks.TryGetValue(ID, out value);
 
-            return value;
+            return value.X;
+        }
+        
+        private float getQuantity(String ID)
+        {
+            Vector2 value;
+            drinks.TryGetValue(ID, out value);
+
+            return value.Y;
+        }
+        
+        private float dispenseItem(String ID)
+        {
+            Vector2 quantity;
+            drinks.TryGetValue(ID, out quantity);
+
+            quantity.Y -= 1;
+            
+            drinks[ID] = quantity;
+            
+            return quantity.Y;
         }
     }
 }
