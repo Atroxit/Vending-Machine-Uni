@@ -51,18 +51,23 @@ namespace Bank
             sw.Close();
         }
         
+        //Used to check if the given Account ID exists within the CSV File
         public bool checkAccount(int accountID)
         {
+            //Loops Through the CSV and Compares the ID's
             for (int i = 0; i < CSVData.Length / 2; i++)
             {
+                //Returns True if an Account ID matches one within the CSV
                 if (accountID == int.Parse(CSVData[i,0]))
                 {
                     return true;
                 }
             }
+            //Returns False if there is no match
             return false;
         }
         
+        //Used to Retrieve the Bank Balance of a User by Account ID
         public float getAmount(int accountID)
         {
             try
@@ -76,6 +81,7 @@ namespace Bank
             }
         }
         
+        //Used to Deduct Item Price from a Given Bank Account
         public bool setBalance(int accountID, float amountToDeduct)
         {
             if (getAmount(accountID) >= amountToDeduct)
